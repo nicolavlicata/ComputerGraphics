@@ -41,6 +41,8 @@ bool unitTest0(){
     return false;	
 }
 
+
+
 bool unitTest1(){
 	glm::mat4 glmIdentityMatrix = glm::mat4(1.0f);
 	Matrix4f myIdentity( 1.0f,0,0,0,
@@ -172,6 +174,39 @@ bool unitTest5(){
     return false;
 }
 
+bool vecTestAccessors() {
+    Vector4f vec(1, 2, 3, 4);
+    return vec[0] == 1 && vec[1] == 2 && vec[2] == 3 && vec[3] == 4; 
+}
+
+bool vecTestScalarMulti() {
+    Vector4f v(1, 2, 3, 4);
+    v*= 2;
+    return v[0] == 2 && v[1] == 4 && v[2] == 6 && v[3] == 8; 
+}
+
+bool vecTestScalarDiv() {
+    Vector4f v(2, 4, 6, 8);
+    v/=2;
+    return v[0] == 1 && v[1] == 2 && v[2] == 3 && v[3] == 4; 
+}
+
+bool vecTestAdd() {
+    Vector4f a(1, 1, 1, 1);
+    Vector4f b(2, 2, 2, 2);
+    Vector4f c(3, 3, 3, 3);
+    a += b;
+    return a == c;
+}
+
+bool vecTestSubtract() {
+    Vector4f a(1, 1, 1, 1);
+    Vector4f b(2, 2, 2, 2);
+    Vector4f c(1, 1, 1, 1);
+    b -= a;
+    return b == c;
+}
+
 int main(){
     // Keep track of the tests passed
     unsigned int testsPassed = 0;
@@ -183,6 +218,10 @@ int main(){
     std::cout << "Passed 3: " << unitTest3() << " \n";
     std::cout << "Passed 4: " << unitTest4() << " \n";
     std::cout << "Passed 5: " << unitTest5() << " \n";
-
+    std::cout << "VecTestAccessor: " << vecTestAccessors() << " \n";
+    std::cout << "VecTestScalarMulti: " << vecTestScalarMulti() << " \n";
+    std::cout << "VecTestScalarDiv: " << vecTestScalarDiv() << " \n";
+    std::cout << "VecTestAdd: " << vecTestAdd() << " \n";
+    std::cout << "VecTestSubtract: " << vecTestSubtract() << " \n";
     return 0;
 }
