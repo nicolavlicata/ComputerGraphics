@@ -2,6 +2,7 @@
 
 //////////////////////////////////////////////////////////////////////
 // Publics
+unsigned int triangleSwitch = 6;
 #if USE_QT_OPENGL
   BasicWidget::BasicWidget(QWidget* parent) : QOpenGLWidget(parent), vbo_(QOpenGLBuffer::VertexBuffer), cbo_(QOpenGLBuffer::VertexBuffer), ibo_(QOpenGLBuffer::IndexBuffer)
 #else
@@ -145,9 +146,11 @@ void BasicWidget::keyReleaseEvent(QKeyEvent* keyEvent)
   // Handle key events here.
   if (keyEvent->key() == Qt::Key_Left) {
     qDebug() << "Left Arrow Pressed";
+    triangleSwitch = 3; 
     update();  // We call update after we handle a key press to trigger a redraw when we are ready
   } else if (keyEvent->key() == Qt::Key_Right) {
     qDebug() << "Right Arrow Pressed";
+    triangleSwitch = 6; 
     update();  // We call update after we handle a key press to trigger a redraw when we are ready
   } else {
     qDebug() << "You Pressed an unsupported Key!";
@@ -206,8 +209,16 @@ void BasicWidget::initializeGL()
   vbo_.allocate(verts, 12 * sizeof(GL_FLOAT));
 
   // TODO:  Generate our color buffer
+  cbo_.setUsagePattern(QOpenGLBuffer::StaticDraw);
+  cbo_.create();
+  cbo_.bind();
+  cbo_.allocate(colors, 16 * sizeof(GL_FLOAT));
   // ENDTODO
   // TODO:  Generate our index buffer
+  ibo_.setUsagePattern(QOpenGLBuffer::StaticDraw);
+  ibo_.create();
+  ibo_.bind();
+  ibo_.allocate(idx, 6 * sizeof(GL_UNSIGNED_INT));
   // ENDTODO
 
   // Create a VAO to keep track of things for us.
@@ -260,7 +271,7 @@ void BasicWidget::paintGL()
   shaderProgram_.bind();
   vao_.bind();
   // TODO: Change number of indices drawn
-  glDrawElements(GL_TRIANGLES, ??, GL_UNSIGNED_INT, 0);
+  glDrawElements(GL_TRIANGLES, triangleSwitch, GL_UNSIGNED_INT, 0);
   // ENDTODO
   vao_.release();
   shaderProgram_.release();
@@ -287,7 +298,7 @@ void BasicWidget::paintGL()
   glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, iboID_);
   // Render
   // TODO: Change number of indices drawn
-  glDrawElements(GL_TRIANGLES, ??, GL_UNSIGNED_INT, nullptr);
+  glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr);
   // ENDTODO
   // Unbind everything
   glDisableVertexAttribArray(0);
