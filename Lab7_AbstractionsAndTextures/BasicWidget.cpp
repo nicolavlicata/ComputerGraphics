@@ -38,7 +38,7 @@ void BasicWidget::initializeGL()
   initializeOpenGLFunctions();
 
   qDebug() << QDir::currentPath();
-  QString texFile = "../../cat3.ppm";
+  QString texFile = "../cat3.ppm";
   QVector<QVector3D> pos;
   QVector<QVector3D> norm;
   QVector<QVector2D> texCoord;
@@ -53,11 +53,21 @@ void BasicWidget::initializeGL()
   norm << QVector3D(0.0, 0.0, 1.0);
   norm << QVector3D(0.0, 0.0, 1.0);
   // TODO:  Make sure to add texture coordinates to pass into the initialization of our renderable
+  texCoord << QVector2D(0.0, 0.0);
+  texCoord << QVector2D(0.0, 1.0);
+  texCoord << QVector2D(1.0, 0.0);
+  texCoord << QVector2D(1.0, 1.0);
   idx << 0 << 1 << 2 << 2 << 1 << 3;
 
   Renderable* ren = new Renderable();
   ren->init(pos, norm, texCoord, idx, texFile);
   renderables_.push_back(ren);
+
+  Renderable* ren2 = new Renderable();
+  ren2->init(pos, norm, texCoord, idx, texFile);
+  ren2->setRotationAxis(QVector3D(0, 1, 0));
+  renderables_.push_back(ren2);
+  
   glViewport(0, 0, width(), height());
   frameTimer_.start();
 }

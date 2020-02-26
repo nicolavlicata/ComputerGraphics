@@ -10,13 +10,11 @@
 
 ## Modify this section
 
-- How many hours did it take you to complete this lab?
+- How many hours did it take you to complete this lab? 1.5
 - Did you collaborate with any other students/TAs/Professors?
+  - Matthew Diloreto
 - Did you use any external resources? (Cite them below)
-  - tbd
-  - tbd
-- (Optional) What was your favorite part of the lab?
-- (Optional) How would you improve the lab?
+  - QT Docs 
 
 ## Logistics
 
@@ -40,9 +38,11 @@ During your co-ops, internships, and jobs you will often do a code review. Today
 
 Discuss with your partner the following:
 
-1. What are the advantages/disadvantages of the "Renderable" class?: *Add your answer here*
-2. Why do we call Renderable::draw(..) with the matrix info as parameters?: *Add your answer here*
-3. How you can move models in the scene?: *Add your answer here*
+1. What are the advantages/disadvantages of the "Renderable" class?: 
+  - Pros: You can easily create renderable objects and create many similar renderables by reusing data.
+  - Cons: It only takes in one texture file per renderable
+2. Why do we call Renderable::draw(..) with the matrix info as parameters?: Because you need to know where the renderables are supposed to be placed. 
+3. How you can move models in the scene?: Set a new model matrix for the renderable.
 
 ## Part 2 - Textures
 
