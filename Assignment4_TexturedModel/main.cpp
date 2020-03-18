@@ -5,11 +5,18 @@
 #include <QtCore>
 #include <QtGui>
 #include <QtOpenGL>
+// Lab application
+#include "App.h"
+#include <iostream>
 
-// TODO:  you have to include whatever application-specific code there is here.  This should be
-// a subclass of QMainWindow!
+static bool enableGLDebug = true;
 
 int main(int argc, char** argv) {
+  if (argc != 2) {
+    std::cout << "Usage " << argv[0] << " [.obj file path]" << std::endl;
+    return 1;
+  }
+  std::cout << "main " << argv[1] << std::endl;
   QApplication a(argc, argv);
   QString appDir = a.applicationDirPath();
   QDir::setCurrent(appDir);
@@ -19,10 +26,13 @@ int main(int argc, char** argv) {
   fmt.setStencilBufferSize(8);
   fmt.setVersion(3,3);
   fmt.setProfile(QSurfaceFormat::CoreProfile);
+  if(enableGLDebug) {
+    fmt.setOption(QSurfaceFormat::DebugContext);
+  }
   QSurfaceFormat::setDefaultFormat(fmt);
-
-  // TODO:  Replace the following 3 lines with whatever you need to create, show, and execute your application
-  //Application app;
-  //app.show();
-  //return QApplication::exec();
+ 
+  std::string objFilename(argv[1]);
+  App app(0, objFilename);
+  app.show();
+  return QApplication::exec();
 }

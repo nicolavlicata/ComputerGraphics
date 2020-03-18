@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/licatan/Documents/graphics/ComputerGraphics/Assignment4_TexturedModel",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/home/licatan/Documents/graphics/ComputerGraphics/Assignment4_TexturedModel -I/home/licatan/Documents/graphics/ComputerGraphics/Assignment4_TexturedModel/App_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtOpenGL    -fPIC -std=gnu++11 -o CMakeFiles/App.dir/Obj.cpp.o -c /home/licatan/Documents/graphics/ComputerGraphics/Assignment4_TexturedModel/Obj.cpp",
+  "file": "/home/licatan/Documents/graphics/ComputerGraphics/Assignment4_TexturedModel/Obj.cpp"
+},
+{
+  "directory": "/home/licatan/Documents/graphics/ComputerGraphics/Assignment4_TexturedModel",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/home/licatan/Documents/graphics/ComputerGraphics/Assignment4_TexturedModel -I/home/licatan/Documents/graphics/ComputerGraphics/Assignment4_TexturedModel/App_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtOpenGL    -fPIC -std=gnu++11 -o CMakeFiles/App.dir/App.cpp.o -c /home/licatan/Documents/graphics/ComputerGraphics/Assignment4_TexturedModel/App.cpp",
+  "file": "/home/licatan/Documents/graphics/ComputerGraphics/Assignment4_TexturedModel/App.cpp"
+},
+{
+  "directory": "/home/licatan/Documents/graphics/ComputerGraphics/Assignment4_TexturedModel",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/home/licatan/Documents/graphics/ComputerGraphics/Assignment4_TexturedModel -I/home/licatan/Documents/graphics/ComputerGraphics/Assignment4_TexturedModel/App_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtOpenGL    -fPIC -std=gnu++11 -o CMakeFiles/App.dir/BasicWidget.cpp.o -c /home/licatan/Documents/graphics/ComputerGraphics/Assignment4_TexturedModel/BasicWidget.cpp",
+  "file": "/home/licatan/Documents/graphics/ComputerGraphics/Assignment4_TexturedModel/BasicWidget.cpp"
+},
+{
+  "directory": "/home/licatan/Documents/graphics/ComputerGraphics/Assignment4_TexturedModel",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/home/licatan/Documents/graphics/ComputerGraphics/Assignment4_TexturedModel -I/home/licatan/Documents/graphics/ComputerGraphics/Assignment4_TexturedModel/App_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtOpenGL    -fPIC -std=gnu++11 -o CMakeFiles/App.dir/Renderable.cpp.o -c /home/licatan/Documents/graphics/ComputerGraphics/Assignment4_TexturedModel/Renderable.cpp",
+  "file": "/home/licatan/Documents/graphics/ComputerGraphics/Assignment4_TexturedModel/Renderable.cpp"
+},
+{
+  "directory": "/home/licatan/Documents/graphics/ComputerGraphics/Assignment4_TexturedModel",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/home/licatan/Documents/graphics/ComputerGraphics/Assignment4_TexturedModel -I/home/licatan/Documents/graphics/ComputerGraphics/Assignment4_TexturedModel/App_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtOpenGL    -fPIC -std=gnu++11 -o CMakeFiles/App.dir/main.cpp.o -c /home/licatan/Documents/graphics/ComputerGraphics/Assignment4_TexturedModel/main.cpp",
+  "file": "/home/licatan/Documents/graphics/ComputerGraphics/Assignment4_TexturedModel/main.cpp"
+},
+{
+  "directory": "/home/licatan/Documents/graphics/ComputerGraphics/Assignment4_TexturedModel",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/home/licatan/Documents/graphics/ComputerGraphics/Assignment4_TexturedModel -I/home/licatan/Documents/graphics/ComputerGraphics/Assignment4_TexturedModel/App_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtOpenGL    -fPIC -std=gnu++11 -o CMakeFiles/App.dir/App_autogen/mocs_compilation.cpp.o -c /home/licatan/Documents/graphics/ComputerGraphics/Assignment4_TexturedModel/App_autogen/mocs_compilation.cpp",
+  "file": "/home/licatan/Documents/graphics/ComputerGraphics/Assignment4_TexturedModel/App_autogen/mocs_compilation.cpp"
+}
+]

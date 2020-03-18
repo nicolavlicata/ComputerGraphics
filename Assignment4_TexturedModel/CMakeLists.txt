@@ -9,6 +9,8 @@ set(CMAKE_INCLUDE_CURRENT_DIR ON)
 find_package(Qt5 COMPONENTS Widgets Core Gui OpenGL)
 find_package(OpenGL REQUIRED)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 include_directories(
   ${QtWidget_INCLUDES}
   ${QtCore_INCLUDES}
@@ -17,6 +19,10 @@ include_directories(
 )
 
 set(srcs
+	Obj.cpp
+  App.cpp
+  BasicWidget.cpp
+  Renderable.cpp
   main.cpp
 )
 
