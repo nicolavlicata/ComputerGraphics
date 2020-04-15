@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/licatan/Documents/graphics/ComputerGraphics/Assignment5_NormalMappedModel",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/home/licatan/Documents/graphics/ComputerGraphics/Assignment5_NormalMappedModel -I/home/licatan/Documents/graphics/ComputerGraphics/Assignment5_NormalMappedModel/App_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtOpenGL    -fPIC -std=gnu++11 -o CMakeFiles/App.dir/Obj.cpp.o -c /home/licatan/Documents/graphics/ComputerGraphics/Assignment5_NormalMappedModel/Obj.cpp",
+  "file": "/home/licatan/Documents/graphics/ComputerGraphics/Assignment5_NormalMappedModel/Obj.cpp"
+},
+{
+  "directory": "/home/licatan/Documents/graphics/ComputerGraphics/Assignment5_NormalMappedModel",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/home/licatan/Documents/graphics/ComputerGraphics/Assignment5_NormalMappedModel -I/home/licatan/Documents/graphics/ComputerGraphics/Assignment5_NormalMappedModel/App_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtOpenGL    -fPIC -std=gnu++11 -o CMakeFiles/App.dir/App.cpp.o -c /home/licatan/Documents/graphics/ComputerGraphics/Assignment5_NormalMappedModel/App.cpp",
+  "file": "/home/licatan/Documents/graphics/ComputerGraphics/Assignment5_NormalMappedModel/App.cpp"
+},
+{
+  "directory": "/home/licatan/Documents/graphics/ComputerGraphics/Assignment5_NormalMappedModel",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/home/licatan/Documents/graphics/ComputerGraphics/Assignment5_NormalMappedModel -I/home/licatan/Documents/graphics/ComputerGraphics/Assignment5_NormalMappedModel/App_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtOpenGL    -fPIC -std=gnu++11 -o CMakeFiles/App.dir/BasicWidget.cpp.o -c /home/licatan/Documents/graphics/ComputerGraphics/Assignment5_NormalMappedModel/BasicWidget.cpp",
+  "file": "/home/licatan/Documents/graphics/ComputerGraphics/Assignment5_NormalMappedModel/BasicWidget.cpp"
+},
+{
+  "directory": "/home/licatan/Documents/graphics/ComputerGraphics/Assignment5_NormalMappedModel",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/home/licatan/Documents/graphics/ComputerGraphics/Assignment5_NormalMappedModel -I/home/licatan/Documents/graphics/ComputerGraphics/Assignment5_NormalMappedModel/App_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtOpenGL    -fPIC -std=gnu++11 -o CMakeFiles/App.dir/Renderable.cpp.o -c /home/licatan/Documents/graphics/ComputerGraphics/Assignment5_NormalMappedModel/Renderable.cpp",
+  "file": "/home/licatan/Documents/graphics/ComputerGraphics/Assignment5_NormalMappedModel/Renderable.cpp"
+},
+{
+  "directory": "/home/licatan/Documents/graphics/ComputerGraphics/Assignment5_NormalMappedModel",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/home/licatan/Documents/graphics/ComputerGraphics/Assignment5_NormalMappedModel -I/home/licatan/Documents/graphics/ComputerGraphics/Assignment5_NormalMappedModel/App_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtOpenGL    -fPIC -std=gnu++11 -o CMakeFiles/App.dir/main.cpp.o -c /home/licatan/Documents/graphics/ComputerGraphics/Assignment5_NormalMappedModel/main.cpp",
+  "file": "/home/licatan/Documents/graphics/ComputerGraphics/Assignment5_NormalMappedModel/main.cpp"
+},
+{
+  "directory": "/home/licatan/Documents/graphics/ComputerGraphics/Assignment5_NormalMappedModel",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/home/licatan/Documents/graphics/ComputerGraphics/Assignment5_NormalMappedModel -I/home/licatan/Documents/graphics/ComputerGraphics/Assignment5_NormalMappedModel/App_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtOpenGL    -fPIC -std=gnu++11 -o CMakeFiles/App.dir/App_autogen/mocs_compilation.cpp.o -c /home/licatan/Documents/graphics/ComputerGraphics/Assignment5_NormalMappedModel/App_autogen/mocs_compilation.cpp",
+  "file": "/home/licatan/Documents/graphics/ComputerGraphics/Assignment5_NormalMappedModel/App_autogen/mocs_compilation.cpp"
+}
+]
